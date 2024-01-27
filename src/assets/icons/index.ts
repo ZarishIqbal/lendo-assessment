@@ -1,3 +1,3 @@
+import bell from "./bell.png";
 import wallet from "./wallet.png";
-
-export { wallet };
+export { bell, wallet };

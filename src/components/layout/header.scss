@@ -1,0 +1,92 @@
+.header {
+  .sidebar {
+    position: absolute;
+    z-index: 10;
+    width: 67%;
+    height: 132px;
+    left: 370px;
+    top: 0rem;
+    border-bottom: 1px solid #e5e7eb;
+    margin: 1rem 1rem;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 0.25rem;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    .nav {
+      display: flex;
+      width: 400px;
+
+      .nav-item {
+        cursor: pointer;
+        padding: 2rem;
+        color: #1f2937;
+        .nav-link {
+          font-family: ProximaNova;
+          font-size: 17px;
+          &:hover {
+            font-family: ProximaNovaBold;
+            font-size: 17px;
+          }
+        }
+      }
+    }
+    .menu {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 30%;
+      justify-content: space-evenly;
+      gap: 2rem;
+      .lng {
+        color: #8687a8;
+        font-family: ProximaNova;
+        font-size: 17px;
+      }
+      .badge {
+        position: relative;
+        .bell {
+          height: 24px;
+          width: 24px;
+        }
+        p {
+          right: -5px;
+          top: 14px;
+          position: absolute;
+          background-color: #2d91fe;
+          border-radius: 100%;
+          width: 16px;
+          height: 16px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0px;
+          font-size: 10px;
+          color: #ffffff;
+        }
+      }
+      .avatar {
+        height: 40px;
+        width: 40px;
+        img {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+}
+
+.selected-bar {
+  height: 3px;
+  width: 15px;
+  background-color: #2d91fe;
+  position: absolute;
+  bottom: 0;
+}
+.selected {
+  font-family: ProximaNovaBold;
+}
