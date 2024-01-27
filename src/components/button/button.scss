@@ -5,10 +5,17 @@
   border: none;
 }
 .secondary {
-  width: 112px;
+  min-width: 112px;
+  padding: 0px 20px;
   background-color: #ffffff;
   border: 1px solid #e5e5f3;
   color: #0d0f52;
+}
+.red {
+  width: 77px;
+  background-color: #ff6769;
+  border: 1px solid #e5e5f3;
+  color: #ffffff;
 }
 .button {
   cursor: pointer;

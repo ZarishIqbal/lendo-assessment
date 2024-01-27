@@ -3,7 +3,7 @@ import "./button.scss";
 type ButtonProps = {
   title: string;
   onClick: () => void;
-  theme?: "primary" | "secondary" | "warning";
+  theme?: "primary" | "secondary" | "red";
 };
 export const Button = ({ title, onClick, theme = "primary" }: ButtonProps) => {
   return (
