@@ -1,4 +1,6 @@
 .sidebar {
+  display: flex;
+  flex-direction: column;
   .logo {
     border-radius: 0.375rem;
     width: 136px;
@@ -25,6 +27,7 @@
       margin-bottom: 3rem;
     }
     .wallet-container {
+      margin: 2.5rem 0rem;
       display: flex;
       align-items: center;
       .wallet-icon {
@@ -73,6 +76,9 @@
         margin: 0px;
       }
     }
+    .illustration {
+      margin: 2.5rem 0rem;
+    }
     .title {
       font-family: ProximaNovaBold;
       font-size: 17px;
@@ -116,8 +122,9 @@
   }
 
   .main {
-    padding-top: 1.5rem;
-    padding-left: 0.25rem;
-    margin-left: 18rem;
+    position: absolute;
+    left: 380px;
+    top: 150px;
+    width: 70%;
   }
 }

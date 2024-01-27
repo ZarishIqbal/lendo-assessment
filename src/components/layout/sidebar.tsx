@@ -47,7 +47,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ children }) => {
           </div>
           <div className="line" />
         </div>
-        <div>
+        <div className="illustration">
           <img src={trustIllustration} width={174.3} height={144.1} />
           <div>
             <p className="title">Why Should You Trust It?</p>
